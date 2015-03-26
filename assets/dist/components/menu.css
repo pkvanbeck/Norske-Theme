@@ -1079,13 +1079,13 @@
 
 .ui.menu .blue.active.item,
 .ui.blue.menu .active.item {
-  border-color: #3b83c0 !important;
-  color: #3b83c0 !important;
+  border-color: #00a1b7 !important;
+  color: #00a1b7 !important;
 }
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #5bbd72 !important;
-  color: #5bbd72 !important;
+  border-color: #16a286 !important;
+  color: #16a286 !important;
 }
 .ui.menu .orange.active.item,
 .ui.orange.menu .active.item {
@@ -1123,7 +1123,7 @@
 ---------------*/
 
 .ui.inverted.menu {
-  background: #1b1c1d;
+  background: #1a1a1a;
   box-shadow: none;
 }
 .ui.inverted.menu .header.item {
@@ -1174,12 +1174,12 @@
 .ui.inverted.menu a.item:hover,
 .ui.inverted.menu .dropdown.item:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  color: #f7f7f7;
 }
 .ui.inverted.menu .item .menu a.item:hover,
 .ui.inverted.menu .item .menu .link.item:hover {
   background: transparent;
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*--- Pressed ---*/
@@ -1189,7 +1189,7 @@
 .ui.inverted.menu .link.item:active,
 .ui.inverted.menu a.item:active {
   background: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*--- Active ---*/
@@ -1197,11 +1197,11 @@
 .ui.inverted.menu .active.item {
   box-shadow: none !important;
   background: rgba(255, 255, 255, 0.2);
-  color: #ffffff !important;
+  color: #f7f7f7 !important;
 }
 .ui.inverted.vertical.menu .item .menu .active.item {
   background: transparent;
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*--- Pointers ---*/
@@ -1266,18 +1266,18 @@
 
 /* Blue */
 .ui.inverted.blue.menu {
-  background-color: #3b83c0;
+  background-color: #00a1b7;
 }
 .ui.inverted.blue.pointing.menu .active.item:after {
-  background-color: #3b83c0;
+  background-color: #00a1b7;
 }
 
 /* Green */
 .ui.inverted.green.menu {
-  background-color: #5bbd72;
+  background-color: #16a286;
 }
 .ui.inverted.green.pointing.menu .active.item:after {
-  background-color: #5bbd72;
+  background-color: #16a286;
 }
 
 /* Orange */
@@ -1539,7 +1539,7 @@
   background-color: #f7f7f7;
 }
 .ui.vertical.pointing.menu .menu .active.item:after {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 
 /*--------------
@@ -1606,12 +1606,26 @@
          Site Overrides
 *******************************/
 
+.ui.inverted.menu {
+  margin: 0px;
+  border-radius: 0px;
+}
 .ui.inverted.menu .item:before {
-  background: #1b1c1d;
+  font-color: #1a1a1a;
 }
 #nav > a {
-  line-height: 100px;
+  line-height: 50px;
   padding-left: 40px;
   padding-right: 40px;
   border: 0px;
+}
+#nav a:link {
+  color: #f7f7f7;
+}
+#nav a:hover {
+  color: #16a286;
+}
+.ui.menu {
+  background: initial;
+  box-shadow: 0px;
 }

@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import 'https://fonts.googleapis.com/css?family=Open Sans:300,400,700,300italic,400italic,700italic&subset=latin';
+@import 'https://fonts.googleapis.com/css?family=Open Sans:300,400,600,700,800,300italic,400italic,600italic,700italic,800italic&subset=latin';
 /*!
  * # Semantic UI x.x - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -668,9 +668,81 @@ input::selection {
          Site Overrides
 *******************************/
 
-#owl-demo {
-  height: 500px;
-  overflow: hidden;
+.white-gradient {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+") !important;
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0))) !important;
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0) 100%) !important;
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, rgba(255, 255, 255, 0) 100%) !important;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0) !important;
+  /* IE6-8 */
+}
+
+section {
+  margin: 40px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+.topbar.ui.menu {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin-bottom: 25px !important;
+  margin-left: -5px !important;
+  margin-right: -25px !important;
+  margin-top: -30px !important;
+}
+
+#main-nav {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
+.owl-item active {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#viewport {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.owl-carousel div h1,
+.owl-carousel div .textoverlay {
+  position: absolute;
+  color: #FFF;
+  font-size: 5em;
+  font-weight: 600;
+  letter-spacing: 0px;
+  display: inline-block;
+  z-index: 2;
+}
+
+#intros {
+  margin-top: 50px;
+}
+
+#intros div div {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /*!
  * # Semantic UI x.x - Button
@@ -17916,14 +17988,14 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu .blue.active.item,
 .ui.blue.menu .active.item {
-  border-color: #3b83c0 !important;
-  color: #3b83c0 !important;
+  border-color: #00a1b7 !important;
+  color: #00a1b7 !important;
 }
 
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #5bbd72 !important;
-  color: #5bbd72 !important;
+  border-color: #16a286 !important;
+  color: #16a286 !important;
 }
 
 .ui.menu .orange.active.item,
@@ -17967,7 +18039,7 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 
 .ui.inverted.menu {
-  background: #1b1c1d;
+  background: #1a1a1a;
   box-shadow: none;
 }
 
@@ -18026,13 +18098,13 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.menu a.item:hover,
 .ui.inverted.menu .dropdown.item:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 .ui.inverted.menu .item .menu a.item:hover,
 .ui.inverted.menu .item .menu .link.item:hover {
   background: transparent;
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*--- Pressed ---*/
@@ -18042,7 +18114,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.menu .link.item:active,
 .ui.inverted.menu a.item:active {
   background: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*--- Active ---*/
@@ -18050,12 +18122,12 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.menu .active.item {
   box-shadow: none !important;
   background: rgba(255, 255, 255, 0.2);
-  color: #ffffff !important;
+  color: #f7f7f7 !important;
 }
 
 .ui.inverted.vertical.menu .item .menu .active.item {
   background: transparent;
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*--- Pointers ---*/
@@ -18126,21 +18198,21 @@ ol.ui.horizontal.list li:before,
 /* Blue */
 
 .ui.inverted.blue.menu {
-  background-color: #3b83c0;
+  background-color: #00a1b7;
 }
 
 .ui.inverted.blue.pointing.menu .active.item:after {
-  background-color: #3b83c0;
+  background-color: #00a1b7;
 }
 
 /* Green */
 
 .ui.inverted.green.menu {
-  background-color: #5bbd72;
+  background-color: #16a286;
 }
 
 .ui.inverted.green.pointing.menu .active.item:after {
-  background-color: #5bbd72;
+  background-color: #16a286;
 }
 
 /* Orange */
@@ -18442,7 +18514,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.vertical.pointing.menu .menu .active.item:after {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 
 /*--------------
@@ -18514,15 +18586,33 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 
+.ui.inverted.menu {
+  margin: 0px;
+  border-radius: 0px;
+}
+
 .ui.inverted.menu .item:before {
-  background: #1b1c1d;
+  font-color: #1a1a1a;
 }
 
 #nav > a {
-  line-height: 100px;
+  line-height: 50px;
   padding-left: 40px;
   padding-right: 40px;
   border: 0px;
+}
+
+#nav a:link {
+  color: #f7f7f7;
+}
+
+#nav a:hover {
+  color: #16a286;
+}
+
+.ui.menu {
+  background: initial;
+  box-shadow: 0px;
 }
 /*!
  * # Semantic UI x.x - Message

@@ -2,13 +2,32 @@
          Site Overrides
 *******************************/
 
+
+.ui.inverted.menu {
+    margin: 0px;
+    border-radius: 0px;
+}
+
 .ui.inverted.menu .item:before {
-    background: @black;
+    font-color: @black;
 }
 
 #nav > a {
-    line-height: 100px;
+    line-height: 50px;
     padding-left: 40px;
     padding-right: 40px;
     border: 0px;
+}
+
+#nav a:link {
+    color: @white;
+}
+
+#nav a:hover {
+    color: @green;
+}
+
+.ui.menu {
+    background: initial;
+    box-shadow: 0px;
 }
