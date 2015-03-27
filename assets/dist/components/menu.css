@@ -1614,7 +1614,7 @@
   font-color: #1a1a1a;
 }
 #nav > a {
-  line-height: 50px;
+  line-height: 70px;
   padding-left: 40px;
   padding-right: 40px;
   border: 0px;
@@ -1623,7 +1623,7 @@
   color: #f7f7f7;
 }
 #nav a:hover {
-  color: #16a286;
+  color: #f7f7f7;
 }
 .ui.menu {
   background: initial;

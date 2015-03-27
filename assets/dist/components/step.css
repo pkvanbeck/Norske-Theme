@@ -86,7 +86,7 @@
 
 /* Title */
 .ui.steps .step .title {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.0714em;
   font-weight: bold;
 }
@@ -260,13 +260,13 @@
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #5bbd72;
+  color: #16a286;
 }
 
 /* Disabled */
 .ui.steps .disabled.step {
   cursor: auto;
-  background: #ffffff;
+  background: #f7f7f7;
   pointer-events: none;
 }
 .ui.steps .disabled.step,
@@ -275,7 +275,7 @@
   color: rgba(40, 40, 40, 0.3);
 }
 .ui.steps .disabled.step:after {
-  background: #ffffff;
+  background: #f7f7f7;
 }
 
 

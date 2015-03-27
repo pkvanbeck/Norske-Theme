@@ -269,22 +269,22 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.black.header {
-  color: #1b1c1d !important;
+  color: #1a1a1a !important;
 }
 a.ui.black.header:hover {
-  color: #1b1c1d !important;
+  color: #1a1a1a !important;
 }
 .ui.blue.header {
-  color: #3b83c0 !important;
+  color: #00a1b7 !important;
 }
 a.ui.blue.header:hover {
-  color: #458ac6 !important;
+  color: #00aec6 !important;
 }
 .ui.green.header {
-  color: #5bbd72 !important;
+  color: #16a286 !important;
 }
 a.ui.green.header:hover {
-  color: #66c17b !important;
+  color: #18af91 !important;
 }
 .ui.orange.header {
   color: #e07b53 !important;
@@ -323,13 +323,13 @@ a.ui.yellow.header:hover {
   color: #f3ca2d !important;
 }
 .ui.black.dividing.header {
-  border-bottom: 2px solid #1b1c1d;
+  border-bottom: 2px solid #1a1a1a;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #3b83c0;
+  border-bottom: 2px solid #00a1b7;
 }
 .ui.green.dividing.header {
-  border-bottom: 2px solid #5bbd72;
+  border-bottom: 2px solid #16a286;
 }
 .ui.orange.dividing.header {
   border-bottom: 2px solid #e07b53;
@@ -355,7 +355,7 @@ a.ui.yellow.header:hover {
 --------------------*/
 
 .ui.inverted.header {
-  color: #ffffff;
+  color: #f7f7f7;
 }
 .ui.inverted.header .sub.header {
   color: rgba(255, 255, 255, 0.85);
@@ -530,7 +530,7 @@ a.ui.inverted.yellow.header:hover {
 --------------------*/
 
 .ui.attached.header {
-  background: #ffffff;
+  background: #f7f7f7;
   padding: 0.75rem 1rem;
   margin-left: -1px;
   margin-right: -1px;

@@ -318,7 +318,7 @@
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
   min-width: 180px;
-  background: #ffffff;
+  background: #f7f7f7;
   display: inline-block;
   padding: 0.8em 1.1em;
   color: rgba(0, 0, 0, 0.8);
@@ -908,7 +908,7 @@ select.ui.dropdown {
   width: 0.5em;
   height: 0.5em;
   box-shadow: -1px -1px 0px 1px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: #f7f7f7;
   z-index: 2;
 }
 .ui.pointing.dropdown > .menu:after {

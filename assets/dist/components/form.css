@@ -106,7 +106,7 @@
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -164,7 +164,7 @@
   display: block;
   height: auto;
   width: 100%;
-  background: #ffffff;
+  background: #f7f7f7;
   border: 1px solid rgba(39, 41, 43, 0.15);
   border-radius: 0.2857rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
@@ -342,7 +342,7 @@
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
   border-color: #d95c5c;
-  color: #ffffff;
+  color: #f7f7f7;
 }
 .ui.form .fields.error .field textarea,
 .ui.form .fields.error .field select,

@@ -13,7 +13,7 @@
 }
 
 #nav > a {
-    line-height: 50px;
+    line-height: 70px;
     padding-left: 40px;
     padding-right: 40px;
     border: 0px;
@@ -24,7 +24,7 @@
 }
 
 #nav a:hover {
-    color: @green;
+    color: @white;
 }
 
 .ui.menu {

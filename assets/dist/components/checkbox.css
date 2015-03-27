@@ -64,7 +64,7 @@
   top: 0em;
   left: 0em;
   content: '';
-  background: #ffffff;
+  background: #f7f7f7;
   border-radius: 0.25em;
   -webkit-transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
           transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
@@ -125,7 +125,7 @@
 
 .ui.checkbox .box:hover::before,
 .ui.checkbox label:hover::before {
-  background: #ffffff;
+  background: #f7f7f7;
   border: 1px solid rgba(39, 41, 43, 0.3);
 }
 .ui.checkbox label:hover,
@@ -291,8 +291,8 @@
 /* Handle */
 .ui.slider.checkbox .box:after,
 .ui.slider.checkbox label:after {
-  background: #ffffff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #ffffff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #f7f7f7 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #f7f7f7 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   position: absolute;
   content: '';
   opacity: 1;
@@ -389,8 +389,8 @@
 /* Handle */
 .ui.toggle.checkbox .box:after,
 .ui.toggle.checkbox label:after {
-  background: #ffffff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #ffffff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #f7f7f7 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #f7f7f7 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   position: absolute;
   content: '';
   opacity: 1;
@@ -437,13 +437,13 @@
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label,
 .ui.toggle.checkbox input[type="radio"]:checked ~ .box,
 .ui.toggle.checkbox input[type="radio"]:checked ~ label {
-  color: #5bbd72;
+  color: #16a286;
 }
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ .box:before,
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label:before,
 .ui.toggle.checkbox input[type="radio"]:checked ~ .box:before,
 .ui.toggle.checkbox input[type="radio"]:checked ~ label:before {
-  background-color: #5bbd72;
+  background-color: #16a286;
 }
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ .box:after,
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label:after,

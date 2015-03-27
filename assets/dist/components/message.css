@@ -42,7 +42,7 @@
 /* Header */
 .ui.message .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 0em 0em 0.5rem 0em;
 }
@@ -238,7 +238,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1a1a1a;
   color: #ffffff;
 }
 
@@ -328,15 +328,15 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1a1a1a;
   color: #ffffff;
 }
 .ui.blue.message {
   background-color: #dff0ff;
-  color: #3b83c0;
+  color: #00a1b7;
 }
 .ui.blue.message .header {
-  color: #3576ac;
+  color: #008b9e;
 }
 .ui.green.message {
   background-color: #ebffed;
