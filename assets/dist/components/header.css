@@ -275,10 +275,10 @@ a.ui.black.header:hover {
   color: #1a1a1a !important;
 }
 .ui.blue.header {
-  color: #00a1b7 !important;
+  color: #002868 !important;
 }
 a.ui.blue.header:hover {
-  color: #00aec6 !important;
+  color: #002e77 !important;
 }
 .ui.green.header {
   color: #16a286 !important;
@@ -326,7 +326,7 @@ a.ui.yellow.header:hover {
   border-bottom: 2px solid #1a1a1a;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #00a1b7;
+  border-bottom: 2px solid #002868;
 }
 .ui.green.dividing.header {
   border-bottom: 2px solid #16a286;

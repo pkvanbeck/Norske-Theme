@@ -1261,7 +1261,7 @@
 
 .ui.blue.buttons .button,
 .ui.blue.button {
-  background-color: #00a1b7;
+  background-color: #002868;
   color: #f7f7f7;
   text-shadow: none;
   background-image: none;
@@ -1271,13 +1271,13 @@
 }
 .ui.blue.buttons .button:hover,
 .ui.blue.button:hover {
-  background-color: #00aec6;
+  background-color: #002e77;
   color: #f7f7f7;
   text-shadow: none;
 }
 .ui.blue.buttons .button:active,
 .ui.blue.button:active {
-  background-color: #008293;
+  background-color: #001a44;
   color: #f7f7f7;
   text-shadow: none;
 }
@@ -1285,7 +1285,7 @@
 .ui.blue.buttons .active.button:active,
 .ui.blue.active.button,
 .ui.blue.button .active.button:active {
-  background-color: #008b9e;
+  background-color: #001e4f;
   color: #f7f7f7;
   text-shadow: none;
 }
@@ -1299,19 +1299,19 @@
 .ui.basic.blue.buttons .button:hover,
 .ui.basic.blue.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #00aec6 inset !important;
-  color: #00aec6 !important;
+  box-shadow: 0px 0px 0px 2px #002e77 inset !important;
+  color: #002e77 !important;
 }
 .ui.basic.blue.buttons .button:active,
 .ui.basic.blue.button:active {
-  box-shadow: 0px 0px 0px 2px #008293 inset !important;
-  color: #008293 !important;
+  box-shadow: 0px 0px 0px 2px #001a44 inset !important;
+  color: #001a44 !important;
 }
 .ui.basic.blue.buttons .active.button,
 .ui.basic.blue.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #008293 inset !important;
-  color: #008293 !important;
+  box-shadow: 0px 0px 0px 2px #001a44 inset !important;
+  color: #001a44 !important;
 }
 .ui.buttons > .basic.blue.button:not(:first-child) {
   margin-left: -2px;
@@ -2167,7 +2167,7 @@
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #00a1b7;
+  background-color: #002868;
   color: #f7f7f7;
   text-shadow: none;
   background-image: none;
@@ -2177,19 +2177,19 @@
 }
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #00aec6;
+  background-color: #002e77;
   color: #f7f7f7;
   text-shadow: none;
 }
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #008293;
+  background-color: #001a44;
   color: #f7f7f7;
   text-shadow: none;
 }
 .ui.primary.buttons .active.button,
 .ui.primary.active.button {
-  background-color: #008b9e;
+  background-color: #001e4f;
   color: #f7f7f7;
   text-shadow: none;
 }
