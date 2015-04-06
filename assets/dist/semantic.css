@@ -685,7 +685,7 @@ h5 {
   transition: all 250ms ease-in-out;
   margin-bottom: 10px !important;
   margin-left: -5px !important;
-  margin-right: -25px !important;
+  margin-right: 0px !important;
   margin-top: -30px !important;
 }
 
@@ -705,7 +705,7 @@ h5 {
 
 #banner {
   text-align: center;
-  height: 90%;
+  height: 100%;
   background: url("/assets/img/peak.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -713,7 +713,7 @@ h5 {
 #banner h1 {
   color: #f7f7f7;
   padding-top: 20%;
-  font-size: 8em;
+  font-size: 6em;
   font-weight: 700;
   letter-spacing: 0px;
   z-index: 2;
@@ -16772,6 +16772,10 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.grid > .row {
+  padding: 0;
+}
 /*!
  * # Semantic UI x.x - Menu
  * http://github.com/semantic-org/semantic-ui/
@@ -18595,7 +18599,7 @@ ol.ui.horizontal.list li:before,
 }
 
 #nav a:hover {
-  color: #f7f7f7;
+  color: #d95c5c;
 }
 
 .ui.menu {

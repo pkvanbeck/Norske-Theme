@@ -1855,3 +1855,6 @@
          Site Overrides
 *******************************/
 
+.ui.grid > .row {
+  padding: 0;
+}
