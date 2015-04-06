@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
   <title>Norske Theme</title>
     <link rel="stylesheet" href="assets/css/owl.carousel.css"/>
     <link rel="stylesheet" href="assets/dist/semantic.min.css"/>
@@ -58,8 +58,7 @@
             </div>
         </div>
     </div>
-<div class="tablet mobile only row">
-    <div class="ui red vertical thin demo sidebar menu">
+    <div class="ui mobile-nav red vertical thin demo sidebar menu">
         <a class="item">
             <img src="/assets/img/norske-logo.png" class="icon"/>
         </a>
@@ -79,9 +78,9 @@
             Contact
         </a>
     </div>
-    <button class="ui launch black big right attached fixed button">
+    <button class="ui mobile-nav launch black big right attached fixed button"><i class="align justify icon"></i>
 Menu</button>
-</div>
+
 <div class="pusher"> <!--wrapper-->
     <div id="banner">
         <div class="ui header center aligned">
@@ -89,25 +88,16 @@ Menu</button>
             <h2 class="subheader">This is your subheader</h2>
         </div>
     </div>
-    <section id="projects">
-        <div class="ui page stackable four column grid">
-            <div class="eight wide tablet four wide computer column">
-                <a href="#"><h2>Header</h2><div class="ui card"></div></a>
-            </div>
-            <div class="eight wide tablet four wide computer column">
-                <a href="#"><h2>Header</h2><div class="ui card"></div></a>
-            </div>
-            <div class="eight wide tablet four wide computer column">
-                <a href="#"><h2>Header</h2><div class="ui card"></div></a>
-            </div>
-            <div class="eight wide tablet four wide computer column">
-                <a href="#"><h2>Header</h2><div class="ui card"></div></a>
-            </div>
-        </div>
-    </section>
-    <section id="section-1">
-        
-    </section>
+    
+<section id="section-1" class="ui page grid">
+    <div class="ten wide column header center aligned">
+        <h2>Ea an minim fore varias nam ne quae multos o vidisse, nam mandaremus ad quamquam 
+            aut eram aut deserunt ab tamen.</h2>
+    </div>
+</section>
+<section id="section-1">
+    
+</section>
         
 </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -129,10 +119,10 @@ Menu</button>
     <script type="text/javascript">
      $(window).scroll(function() {
 		  if ($(this).scrollTop() > 40) { //use `this`, not `document`
-			  $('.fixed').css({
+			  $('#main-nav').css({
 				  'padding-top': '0px','padding-bottom': '8px','margin-top': '-20px','background-color': '#f9f9f9','color': '#1d1d1d'
 			  });
-		  }		else {$('.fixed').css({
+		  }		else {$('#main-nav').css({
 				  'padding-top': '30px','padding-bottom': '30px','margin-top': '0px','background-color': 'initial','color': '#f9f9f9'
 			  });}
 	  });

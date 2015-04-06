@@ -11,7 +11,6 @@
 @googleFontSizes   : '300,400,600,700,800,300italic,400italic,600italic,700italic,800italic';
 @googleFontFamily  : '@{googleFontName}:@{googleFontSizes}';
 
-
 section {
     margin: 40px 0;
 }
@@ -36,6 +35,11 @@ h1, h2, h3, h4, h5 {
     margin-top: 0px;
 }
 
+.ui.attached.right.button {
+    display: none !important;
+    margin-top: 5%;
+}
+
 .owl-item active {
     display: block;
     width: 100%;
@@ -43,13 +47,14 @@ h1, h2, h3, h4, h5 {
 }
 
 #banner {
-    text-align: center;
-    height: 100%;
     background: url(/assets/img/peak.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 25%;
     h1 {
         color: @white;
         padding-top: 20%;
@@ -57,11 +62,17 @@ h1, h2, h3, h4, h5 {
         font-weight: 700;
         letter-spacing: 0px;
         z-index: 2;
-        small {
-            font-weight: 400;   
-        }
+    }
+    h2 {
+        color: @white;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: 0px;
+        z-index: 2;    
     }
 }
+
+
 
 #projects {
     margin-top: 50px;
@@ -75,4 +86,46 @@ h1, h2, h3, h4, h5 {
 
 #section-1 {
     
+}
+
+@media only screen 
+  and (min-device-width: 1025px) {
+      .ui.attached.right.button {
+          display:none;
+      }
+}
+
+@media only screen and (max-device-width: 1280px) and (orientation:landscape) {
+    .ui.attached.right.button {
+          display:inline-block !important;
+      }
+    #main-nav {
+        display: none;
+    }
+    #banner {
+        padding-bottom: 25%;
+        h1 {
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 2em;    
+        }
+    }
+}
+
+@media only screen 
+  and (max-device-width: 1024px) {
+      .ui.attached.right.button {
+          display:inline-block !important;
+      }
+      #banner {
+        padding-bottom: 25%;
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;    
+        }
+    }
+      
 }
